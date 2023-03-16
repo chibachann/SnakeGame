@@ -1,0 +1,23 @@
+#game-board {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	border: 2px solid black;
+	position: relative;
+  display: grid;
+  background-color: lightblue;
+}
+
+.snake {
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+}
+
+.food {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+}
